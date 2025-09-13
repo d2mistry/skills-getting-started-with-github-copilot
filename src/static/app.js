@@ -28,7 +28,7 @@ document.addEventListener("DOMContentLoaded", () => {
                 ${details.participants.map(email => `<li>${email}</li>`).join('')}
               </ul>
             </div>`
-          : '<p><em>No participants yet - be the first to join!</em></p>';
+          : '<div class="participants-section"><p><em>No participants yet - be the first to join!</em></p></div>';
 
         activityCard.innerHTML = `
           <h4>${name}</h4>
